@@ -9,7 +9,9 @@ This notebook is for the copy-and-paste demo. Run the chunk below, then copy the
 Paste the reply into a new chunk and run it.
 
 ```{r}
-library(tidyverse)
+library(readr)
+library(dplyr)
+library(ggplot2)
 
 estimates <- read_csv(here::here("inputs/raw/subgroup_estimates.csv"), show_col_types = FALSE)
 

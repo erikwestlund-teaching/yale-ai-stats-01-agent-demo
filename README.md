@@ -4,13 +4,23 @@ Part of the workshop **AI Tools for Statistical Programming and Analysis**. The 
 
 A small analysis project: one messy data file and three notebooks for an AI agent to fill in.
 
+## Install packages
+
+Run this once in the R console, from the project folder:
+
+```r
+source("setup.R")
+```
+
+It installs any of this project's packages that are missing: tidyverse, rmarkdown, here.
+
 ## Open the project
 
 - **RStudio:** open `yale-ai-stats-01-agent-demo.Rproj`.
 - **Positron or VS Code:** open this folder (or `yale-ai-stats-01-agent-demo.code-workspace`).
 - **Claude Code or Codex:** start the tool from a terminal in this folder.
 
-You need R with the **tidyverse**, **rmarkdown**, and **here** packages, and Quarto (bundled with RStudio).
+You need R and Quarto (bundled with RStudio and Positron). `setup.R` installs the packages.
 
 ## What's here
 

@@ -27,7 +27,6 @@ You need R and Quarto (bundled with RStudio and Positron). `setup.R` installs th
 ```
 inputs/raw/subgroup_estimates.csv   messy subgroup estimates
 inputs/raw/codebook.md              what the columns mean
-notebooks/00_chat-demo.qmd          code for the copy-and-paste chatbot demo
 notebooks/01_cleaning.qmd           to be filled in by the agent
 notebooks/02_summary.qmd            to be filled in by the agent
 notebooks/03_analysis.qmd           to be filled in by the agent

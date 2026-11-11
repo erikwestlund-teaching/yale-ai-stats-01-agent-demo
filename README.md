@@ -20,9 +20,9 @@ It installs any of this project's packages that are missing: readr, dplyr, tidyr
 - **Positron or VS Code:** open this folder.
 - **Claude Code or Codex:** start the tool from a terminal in this folder.
 
-You need R and Quarto (bundled with RStudio and Positron). `setup.R` installs the packages.
+You need R and Quarto. Quarto comes with RStudio and Positron. `setup.R` installs the packages.
 
-## What's here
+## Contents
 
 ```
 inputs/raw/subgroup_estimates.csv   messy subgroup estimates
@@ -32,12 +32,14 @@ notebooks/02_summary.qmd            to be filled in by the agent
 notebooks/03_analysis.qmd           to be filled in by the agent
 ```
 
+Rendering a notebook writes its HTML to `outputs/notebooks/`, as set in `_quarto.yml`.
+
 ## Check the agent's work
 
 - Read the code before you run it.
-- Run the notebook yourself and confirm it renders.
-- Compare the results with the raw file. Does the number of rows make sense? Were missing values handled the way you would handle them?
+- Run the notebook yourself and confirm that it renders.
+- Compare the results with the raw file. Check that the number of rows makes sense and that missing values were handled the way you would handle them.
 
-## About the folders
+## Folder layout
 
-This project was created from a [Framework](https://framework.pub) blueprint, so it has the folder layout of a real analysis project: raw data in `inputs/raw/`, notebooks in `notebooks/`, results in `outputs/`. You don't need the framework R package; the notebooks use plain R.
+This project was created from a [Framework](https://framework.pub) blueprint, so it has the folder layout of a real analysis project: raw data in `inputs/raw/`, notebooks in `notebooks/`, and results in `outputs/`. You don't need the framework R package. The notebooks use plain R.
